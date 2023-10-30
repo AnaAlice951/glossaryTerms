@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { usePaths } from '../../hooks/usePaths';
+import image from '../../assets/logo_una_roxa.png';
 
 export function Header() {
   const general = 'text-slate-300';
@@ -8,10 +9,17 @@ export function Header() {
   const { isCurrentPage } = usePaths();
 
   return (
-    <header className="w-full bg-black_75 flex sm:justify-between justify-center items-center px-6 py-4 sm:text-poppins_16 text-poppins_12">
+    <header className="w-full h-20 bg-black_75 flex sm:justify-between justify-center items-center px-6 py-4 sm:text-16 text-12">
       <nav className="flex sm:gap-6 gap-4 items-center">
+        <img className="w-32" src={image} />
         <Link to={'/'} className={isCurrentPage('/') ? current : general}>
           Pagina Inicial
+        </Link>
+        <Link
+          to={'/verbete'}
+          className={isCurrentPage('/') ? current : general}
+        >
+          Verbetes
         </Link>
       </nav>
     </header>

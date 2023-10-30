@@ -1,6 +1,6 @@
 type InputProps = {
   setValue: (e: string) => void;
-  inputType: "text" | "number";
+  inputType: 'text' | 'number';
   inputPlaceholder: string;
   value?: number | string;
   max?: number;
@@ -19,7 +19,7 @@ const Input = ({
     <input
       required
       type={inputType}
-      className="appearance-none text-poppins_16 w-[550px] max-sm:w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block p-2.5"
+      className="appearance-none text-16 w-[550px] max-sm:w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block p-2.5"
       placeholder={inputPlaceholder}
       onChange={(e) => setValue(e.target.value)}
       max={max}

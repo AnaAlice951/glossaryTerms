@@ -1,8 +1,8 @@
-import { MouseEventHandler } from "react";
+import { MouseEventHandler } from 'react';
 
 type ButtonProps = {
   buttonText: string;
-  buttonType?: "submit" | undefined;
+  buttonType?: 'submit' | undefined;
   onClickAction?: MouseEventHandler<HTMLButtonElement> | undefined;
   loading?: boolean;
 };
@@ -16,14 +16,14 @@ const Button = ({
   return (
     <div className="flex flex-col w-full justify-center items-center">
       <button
-        className="text-white text-poppins_16 max-sm:w-[100%] w-[285px] bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2"
+        className="text-white text-16 max-sm:w-[100%] w-[285px] bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg px-5 py-2.5 mr-2 mb-2"
         type={buttonType}
         onClick={onClickAction}
         disabled={loading}
       >
         {buttonText}
       </button>
-      {buttonType === "submit" && loading && (
+      {buttonType === 'submit' && loading && (
         <div className="flex items-center justify-center w-fit mt-2">
           <svg
             aria-hidden="true"

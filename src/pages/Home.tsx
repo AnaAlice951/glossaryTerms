@@ -1,19 +1,21 @@
-import { BsInstagram, BsGithub } from "react-icons/bs";
-import Header from "../components/header/Hearder";
+import { BsInstagram, BsGithub } from 'react-icons/bs';
+import Header from '../components/header/Hearder';
 
 export function Home() {
-  const instagramURL = "https://www.instagram.com/anaalice951";
-  const gitHubURL = "https://github.com/AnaAlice951";
+  const instagramURL = 'https://www.instagram.com/anaalice951';
+  const gitHubURL = 'https://github.com/AnaAlice951';
   return (
     <>
       <Header />
-      <div className="w-full h-full font-architectsDaughter flex justify-between items-start p-10 lg:p-20 overflow-y-auto">
+      <div className="w-full h-full font-merriweather flex justify-between items-start p-10 lg:p-20 overflow-y-auto">
         <div className="flex flex-col h-full gap-5 lg:gap-20 w-full justify-center">
           <p className="font-bold text-[50px] lg:text-[80px] text-black_75">
-            Teste Técnico Kukac
+            Verbetes - Direito Digital
           </p>
-          <p className="font-bold text-[30px] lg:text-[35px]  text-black_75">
-            by Ana Alice
+          <p className="font-bold text-14 lg:text-16  text-black_75">
+            Grupo: Ana Alice, Brenner Lucas, Daniele Januario, Gabriel Alves,
+            Hebert Boniek <br></br>Henrique Vieira, Italo Oliveira, Luana
+            Aparecida, Pablo Augusto
           </p>
           <div className="flex flex-row lg:gap-20 gap-10 mt-5">
             <a
