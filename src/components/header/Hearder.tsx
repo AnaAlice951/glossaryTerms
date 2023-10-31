@@ -15,6 +15,9 @@ export function Header() {
         <Link to={'/'} className={isCurrentPage('/') ? current : general}>
           Pagina Inicial
         </Link>
+        <Link to={'/word'} className={isCurrentPage('/') ? current : general}>
+          Todos Verbetes
+        </Link>
         <Link
           to={'/verbete'}
           className={isCurrentPage('/') ? current : general}

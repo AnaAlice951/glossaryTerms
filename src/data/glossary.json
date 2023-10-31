@@ -26,5 +26,47 @@
       "http://en.wikipedia.org/wiki/History_of_artificial_intelligence",
       "https://cdt-art-ai.ac.uk/"
     ]
+  },
+  {
+    "id": "1",
+    "nome": "Fake News",
+    "imagem": "fake_news.png",
+    "descricao": "Definição: Fake News refere-se a informações falsas compartilhadas, principalmente online, com o intuito de enganar, influenciar a opinião pública ou obter vantagens pessoais. Com a ascensão da internet e das redes sociais, o termo tornou-se uma preocupação central no Direito Digital. Impacto: Fake News podem causar sérios danos, incluindo desinformação, divisão na sociedade, difamação, ameaças à segurança pública e interferência em processos eleitorais. Questões éticas, legais e sociais surgem como resultado. Responsabilidade Legal: O Direito Digital desempenha papel crucial na regulamentação das Fake News. Em muitos países, a disseminação deliberada de informações falsas é passível de ações legais. Plataformas online também podem ser responsabilizadas por não combater eficazmente a propagação de Fake News. Regulação: Governos buscam regulamentar as Fake News, promovendo transparência nas redes sociais e educação midiática. Contudo, isso suscita preocupações sobre liberdade de expressão e censura. Desafios: Determinar o que é falso ou verdadeiro é complexo, e a aplicação das leis é desafiadora. A regulamentação das Fake News exige um equilíbrio entre liberdade de expressão e prevenção da disseminação de informações prejudiciais. Prevenção: Abordar as Fake News requer cooperação entre governos, empresas de tecnologia e sociedade civil. Isso inclui educação midiática, verificação de fatos, promoção da responsabilidade nas redes sociais e desenvolvimento de algoritmos para detectar notícias falsas. As Fake News representam um desafio crescente no Direito Digital, demandando soluções que preservem a liberdade de expressão, ao mesmo tempo em que combatam a disseminação de informações falsas na era digital.",
+    "referencias": [
+      "ARROIO, A. Is media literacy an urgent issue in education for all? Problems of Education in the 21st Century, Siauliai, v. 75, n. 5, p. 416-418, 2017.",
+      "GENESINI, S. A pós-verdade é uma notícia falsa. Revista USP, São Paulo, n. 116, p. 45-58, 29 maio 2018."
+    ],
+    "fontes": [
+      "http://oaji.net/articles/2017/457-1509895265.pdf",
+      "http://www.revistas.usp.br/revusp/article/view/146577"
+    ]
+  },
+  {
+    "id": "2",
+    "nome": "Inteligência Artificial",
+    "imagem": "IA.png",
+    "descricao": "Definição: A Inteligência Artificial é um campo da ciência da computação que se concentra no desenvolvimento de sistemas e algoritmos capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizado, raciocínio, resolução de problemas e reconhecimento de padrões. Aplicações: A IA tem ampla aplicação em setores como saúde, finanças, automação industrial, veículos autônomos, tradução de idiomas, assistentes virtuais, entre outros. Ética e Direito Digital: O avanço da IA levanta questões éticas e legais, incluindo a privacidade de dados, discriminação algorítmica e a responsabilidade por decisões tomadas por sistemas de IA. Regulação: Muitos países estão implementando regulamentações para controlar o uso da IA definindo padrões para transparência e responsabilidade das organizações que a empregam. Responsabilidade Legal: No campo do Direito Digital, a questão da responsabilidade pelos atos de sistemas de IA é um tópico importante. Quem é responsável quando um erro ocorre em um veículo autônomo, por exemplo? Direitos Autorais: A criação de conteúdo gerado por IA levanta questões sobre direitos autorais e propriedade intelectual. Quem é o autor quando um algoritmo gera uma obra? Viés e Discriminação: A IA pode perpetuar preconceitos e discriminação, e, portanto, é importante que as regulamentações considerem essas preocupações. Transparência: A transparência nos algoritmos de IA é essencial para garantir a justiça e a responsabilidade, bem como para construir a confiança na tecnologia. A Inteligência Artificial é uma área em constante evolução que exige uma abordagem cuidadosa no âmbito do Direito Digital, garantindo que os avanços tecnológicos sejam aplicados de maneira ética e responsável. ",
+    "referencia": [
+      "McCarthy J, Minsky ML, Rochester N, Shanon CE. A Proposal of the Dartmouth Summer Research Project on Artificial Intelligence.",
+      "ART-AI. Centre for Doctoral Training in Accountable, Responsible and Transparent AI, University of Bath, UK, 2019."
+    ],
+    "fontes": [
+      "http://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+      "https://cdt-art-ai.ac.uk/"
+    ]
+  },
+  {
+    "id": "1",
+    "nome": "Fake News",
+    "imagem": "fake_news.png",
+    "descricao": "Definição: Fake News refere-se a informações falsas compartilhadas, principalmente online, com o intuito de enganar, influenciar a opinião pública ou obter vantagens pessoais. Com a ascensão da internet e das redes sociais, o termo tornou-se uma preocupação central no Direito Digital. Impacto: Fake News podem causar sérios danos, incluindo desinformação, divisão na sociedade, difamação, ameaças à segurança pública e interferência em processos eleitorais. Questões éticas, legais e sociais surgem como resultado. Responsabilidade Legal: O Direito Digital desempenha papel crucial na regulamentação das Fake News. Em muitos países, a disseminação deliberada de informações falsas é passível de ações legais. Plataformas online também podem ser responsabilizadas por não combater eficazmente a propagação de Fake News. Regulação: Governos buscam regulamentar as Fake News, promovendo transparência nas redes sociais e educação midiática. Contudo, isso suscita preocupações sobre liberdade de expressão e censura. Desafios: Determinar o que é falso ou verdadeiro é complexo, e a aplicação das leis é desafiadora. A regulamentação das Fake News exige um equilíbrio entre liberdade de expressão e prevenção da disseminação de informações prejudiciais. Prevenção: Abordar as Fake News requer cooperação entre governos, empresas de tecnologia e sociedade civil. Isso inclui educação midiática, verificação de fatos, promoção da responsabilidade nas redes sociais e desenvolvimento de algoritmos para detectar notícias falsas. As Fake News representam um desafio crescente no Direito Digital, demandando soluções que preservem a liberdade de expressão, ao mesmo tempo em que combatam a disseminação de informações falsas na era digital.",
+    "referencias": [
+      "ARROIO, A. Is media literacy an urgent issue in education for all? Problems of Education in the 21st Century, Siauliai, v. 75, n. 5, p. 416-418, 2017.",
+      "GENESINI, S. A pós-verdade é uma notícia falsa. Revista USP, São Paulo, n. 116, p. 45-58, 29 maio 2018."
+    ],
+    "fontes": [
+      "http://oaji.net/articles/2017/457-1509895265.pdf",
+      "http://www.revistas.usp.br/revusp/article/view/146577"
+    ]
   }
 ]
