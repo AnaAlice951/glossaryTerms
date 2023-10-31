@@ -19,7 +19,7 @@ export function Word() {
             placeholder="Encontre palavras interresantes..."
             required
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-4 w-[80%] sm:mt-[3%] mt-[6%]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-4 w-[80%] sm:mt-[3%] mt-[6%] h-full">
             {data.map((boxData) => (
               <WordBox data={boxData} />
             ))}

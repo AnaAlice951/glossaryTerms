@@ -1,8 +1,8 @@
 [
   {
-    "id": "1",
+    "id": "fake-news",
     "nome": "Fake News",
-    "imagem": "fake_news.png",
+    "imagem": ["fake_news.png"],
     "descricao": "Definição: Fake News refere-se a informações falsas compartilhadas, principalmente online, com o intuito de enganar, influenciar a opinião pública ou obter vantagens pessoais. Com a ascensão da internet e das redes sociais, o termo tornou-se uma preocupação central no Direito Digital. Impacto: Fake News podem causar sérios danos, incluindo desinformação, divisão na sociedade, difamação, ameaças à segurança pública e interferência em processos eleitorais. Questões éticas, legais e sociais surgem como resultado. Responsabilidade Legal: O Direito Digital desempenha papel crucial na regulamentação das Fake News. Em muitos países, a disseminação deliberada de informações falsas é passível de ações legais. Plataformas online também podem ser responsabilizadas por não combater eficazmente a propagação de Fake News. Regulação: Governos buscam regulamentar as Fake News, promovendo transparência nas redes sociais e educação midiática. Contudo, isso suscita preocupações sobre liberdade de expressão e censura. Desafios: Determinar o que é falso ou verdadeiro é complexo, e a aplicação das leis é desafiadora. A regulamentação das Fake News exige um equilíbrio entre liberdade de expressão e prevenção da disseminação de informações prejudiciais. Prevenção: Abordar as Fake News requer cooperação entre governos, empresas de tecnologia e sociedade civil. Isso inclui educação midiática, verificação de fatos, promoção da responsabilidade nas redes sociais e desenvolvimento de algoritmos para detectar notícias falsas. As Fake News representam um desafio crescente no Direito Digital, demandando soluções que preservem a liberdade de expressão, ao mesmo tempo em que combatam a disseminação de informações falsas na era digital.",
     "referencias": [
       "ARROIO, A. Is media literacy an urgent issue in education for all? Problems of Education in the 21st Century, Siauliai, v. 75, n. 5, p. 416-418, 2017.",
@@ -14,59 +14,127 @@
     ]
   },
   {
-    "id": "2",
-    "nome": "Inteligência Artificial",
-    "imagem": "IA.png",
-    "descricao": "Definição: A Inteligência Artificial é um campo da ciência da computação que se concentra no desenvolvimento de sistemas e algoritmos capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizado, raciocínio, resolução de problemas e reconhecimento de padrões. Aplicações: A IA tem ampla aplicação em setores como saúde, finanças, automação industrial, veículos autônomos, tradução de idiomas, assistentes virtuais, entre outros. Ética e Direito Digital: O avanço da IA levanta questões éticas e legais, incluindo a privacidade de dados, discriminação algorítmica e a responsabilidade por decisões tomadas por sistemas de IA. Regulação: Muitos países estão implementando regulamentações para controlar o uso da IA definindo padrões para transparência e responsabilidade das organizações que a empregam. Responsabilidade Legal: No campo do Direito Digital, a questão da responsabilidade pelos atos de sistemas de IA é um tópico importante. Quem é responsável quando um erro ocorre em um veículo autônomo, por exemplo? Direitos Autorais: A criação de conteúdo gerado por IA levanta questões sobre direitos autorais e propriedade intelectual. Quem é o autor quando um algoritmo gera uma obra? Viés e Discriminação: A IA pode perpetuar preconceitos e discriminação, e, portanto, é importante que as regulamentações considerem essas preocupações. Transparência: A transparência nos algoritmos de IA é essencial para garantir a justiça e a responsabilidade, bem como para construir a confiança na tecnologia. A Inteligência Artificial é uma área em constante evolução que exige uma abordagem cuidadosa no âmbito do Direito Digital, garantindo que os avanços tecnológicos sejam aplicados de maneira ética e responsável. ",
-    "referencia": [
-      "McCarthy J, Minsky ML, Rochester N, Shanon CE. A Proposal of the Dartmouth Summer Research Project on Artificial Intelligence.",
-      "ART-AI. Centre for Doctoral Training in Accountable, Responsible and Transparent AI, University of Bath, UK, 2019."
-    ],
-    "fontes": [
-      "http://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-      "https://cdt-art-ai.ac.uk/"
-    ]
-  },
-  {
-    "id": "1",
-    "nome": "Fake News",
-    "imagem": "fake_news.png",
-    "descricao": "Definição: Fake News refere-se a informações falsas compartilhadas, principalmente online, com o intuito de enganar, influenciar a opinião pública ou obter vantagens pessoais. Com a ascensão da internet e das redes sociais, o termo tornou-se uma preocupação central no Direito Digital. Impacto: Fake News podem causar sérios danos, incluindo desinformação, divisão na sociedade, difamação, ameaças à segurança pública e interferência em processos eleitorais. Questões éticas, legais e sociais surgem como resultado. Responsabilidade Legal: O Direito Digital desempenha papel crucial na regulamentação das Fake News. Em muitos países, a disseminação deliberada de informações falsas é passível de ações legais. Plataformas online também podem ser responsabilizadas por não combater eficazmente a propagação de Fake News. Regulação: Governos buscam regulamentar as Fake News, promovendo transparência nas redes sociais e educação midiática. Contudo, isso suscita preocupações sobre liberdade de expressão e censura. Desafios: Determinar o que é falso ou verdadeiro é complexo, e a aplicação das leis é desafiadora. A regulamentação das Fake News exige um equilíbrio entre liberdade de expressão e prevenção da disseminação de informações prejudiciais. Prevenção: Abordar as Fake News requer cooperação entre governos, empresas de tecnologia e sociedade civil. Isso inclui educação midiática, verificação de fatos, promoção da responsabilidade nas redes sociais e desenvolvimento de algoritmos para detectar notícias falsas. As Fake News representam um desafio crescente no Direito Digital, demandando soluções que preservem a liberdade de expressão, ao mesmo tempo em que combatam a disseminação de informações falsas na era digital.",
+    "id": "cyberbullying",
+    "nome": "Cyberbullying",
+    "imagem": ["cyberbullying.png"],
+    "descricao": "O ciberbullying é um fenômeno alarmante que se desenrola nas plataformas digitais, onde indivíduos usam tecnologias de informação e comunicação, como a internet e dispositivos eletrônicos, para assediar, ameaçar, intimidar ou difamar deliberadamente outras pessoas. Esse comportamento prejudicial frequentemente ocorre de forma repetitiva e pode ter consequências emocionais e psicológicas profundas para as vítimas. O ciberbullying se manifesta de várias maneiras, incluindo assédio online, divulgação não consensual de informações pessoais, difamação virtual, perseguição persistente (cyberstalking) e discussões online insultuosas (flaming). A natureza anônima e impessoal da internet muitas vezes encoraja comportamentos agressivos que não ocorreriam pessoalmente. As consequências do ciberbullying para as vítimas podem ser devastadoras. Provoca ansiedade, depressão, baixa autoestima e, em casos extremos, levou a tentativas de suicídio. Portanto, é crucial abordar o ciberbullying de maneira séria e tomar medidas para combatê-lo e preveni-lo. As leis relacionadas ao ciberbullying variam de acordo com a jurisdição. Muitos países têm leis que criminalizam o ciberbullying, especialmente quando envolve ameaças, difamação ou exposição não consensual de informações pessoais. No entanto, a aplicação dessas leis pode ser desafiadora devido à natureza muitas vezes anônima da internet. As escolas têm um papel fundamental na prevenção do ciberbullying, educando os alunos sobre o uso responsável da internet e promovendo um ambiente escolar seguro. Os pais também desempenham um papel crucial ao orientar seus filhos sobre como se protegerem online e incentivando a comunicação aberta sobre qualquer experiência de ciberbullying.",
     "referencias": [
-      "ARROIO, A. Is media literacy an urgent issue in education for all? Problems of Education in the 21st Century, Siauliai, v. 75, n. 5, p. 416-418, 2017.",
-      "GENESINI, S. A pós-verdade é uma notícia falsa. Revista USP, São Paulo, n. 116, p. 45-58, 29 maio 2018."
+      "U.S. DEPARTMENT OF HEALTH AND HUMAN SERVICES. What is cyberbullying? StopBullying.gov.",
+      "UNICEF: The State of the World's Children 2017.",
+      "Cyberbullying Research Center."
     ],
     "fontes": [
-      "http://oaji.net/articles/2017/457-1509895265.pdf",
-      "http://www.revistas.usp.br/revusp/article/view/146577"
+      "https://www.stopbullying.gov/cyberbullying/what-is-it",
+      "https://www.unicef.org/reports/state-worlds-children-2017",
+      "https://cyberbullying.org/"
     ]
   },
   {
-    "id": "2",
-    "nome": "Inteligência Artificial",
-    "imagem": "IA.png",
-    "descricao": "Definição: A Inteligência Artificial é um campo da ciência da computação que se concentra no desenvolvimento de sistemas e algoritmos capazes de executar tarefas que normalmente requerem inteligência humana, como aprendizado, raciocínio, resolução de problemas e reconhecimento de padrões. Aplicações: A IA tem ampla aplicação em setores como saúde, finanças, automação industrial, veículos autônomos, tradução de idiomas, assistentes virtuais, entre outros. Ética e Direito Digital: O avanço da IA levanta questões éticas e legais, incluindo a privacidade de dados, discriminação algorítmica e a responsabilidade por decisões tomadas por sistemas de IA. Regulação: Muitos países estão implementando regulamentações para controlar o uso da IA definindo padrões para transparência e responsabilidade das organizações que a empregam. Responsabilidade Legal: No campo do Direito Digital, a questão da responsabilidade pelos atos de sistemas de IA é um tópico importante. Quem é responsável quando um erro ocorre em um veículo autônomo, por exemplo? Direitos Autorais: A criação de conteúdo gerado por IA levanta questões sobre direitos autorais e propriedade intelectual. Quem é o autor quando um algoritmo gera uma obra? Viés e Discriminação: A IA pode perpetuar preconceitos e discriminação, e, portanto, é importante que as regulamentações considerem essas preocupações. Transparência: A transparência nos algoritmos de IA é essencial para garantir a justiça e a responsabilidade, bem como para construir a confiança na tecnologia. A Inteligência Artificial é uma área em constante evolução que exige uma abordagem cuidadosa no âmbito do Direito Digital, garantindo que os avanços tecnológicos sejam aplicados de maneira ética e responsável. ",
-    "referencia": [
-      "McCarthy J, Minsky ML, Rochester N, Shanon CE. A Proposal of the Dartmouth Summer Research Project on Artificial Intelligence.",
-      "ART-AI. Centre for Doctoral Training in Accountable, Responsible and Transparent AI, University of Bath, UK, 2019."
-    ],
-    "fontes": [
-      "http://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-      "https://cdt-art-ai.ac.uk/"
-    ]
-  },
-  {
-    "id": "1",
-    "nome": "Fake News",
-    "imagem": "fake_news.png",
-    "descricao": "Definição: Fake News refere-se a informações falsas compartilhadas, principalmente online, com o intuito de enganar, influenciar a opinião pública ou obter vantagens pessoais. Com a ascensão da internet e das redes sociais, o termo tornou-se uma preocupação central no Direito Digital. Impacto: Fake News podem causar sérios danos, incluindo desinformação, divisão na sociedade, difamação, ameaças à segurança pública e interferência em processos eleitorais. Questões éticas, legais e sociais surgem como resultado. Responsabilidade Legal: O Direito Digital desempenha papel crucial na regulamentação das Fake News. Em muitos países, a disseminação deliberada de informações falsas é passível de ações legais. Plataformas online também podem ser responsabilizadas por não combater eficazmente a propagação de Fake News. Regulação: Governos buscam regulamentar as Fake News, promovendo transparência nas redes sociais e educação midiática. Contudo, isso suscita preocupações sobre liberdade de expressão e censura. Desafios: Determinar o que é falso ou verdadeiro é complexo, e a aplicação das leis é desafiadora. A regulamentação das Fake News exige um equilíbrio entre liberdade de expressão e prevenção da disseminação de informações prejudiciais. Prevenção: Abordar as Fake News requer cooperação entre governos, empresas de tecnologia e sociedade civil. Isso inclui educação midiática, verificação de fatos, promoção da responsabilidade nas redes sociais e desenvolvimento de algoritmos para detectar notícias falsas. As Fake News representam um desafio crescente no Direito Digital, demandando soluções que preservem a liberdade de expressão, ao mesmo tempo em que combatam a disseminação de informações falsas na era digital.",
+    "id": "ciberseguranca",
+    "nome": "Cibersegurança",
+    "imagem": ["ciberseguranca.png"],
+    "descricao": "A cibersegurança é um campo crítico e em constante evolução na era digital, que se concentra em proteger sistemas de computadores, redes, dispositivos e dados contra uma variedade de ameaças cibernéticas. Com a crescente dependência da tecnologia digital, a cibersegurança tornou-se crucial para proteger informações confidenciais, evitar o acesso não autorizado e manter a integridade das operações. A cibersegurança aborda uma ampla gama de desafios, incluindo a proteção contra ameaças cibernéticas como vírus, malware, ransomware, phishing e ataques de negação de serviço (DDoS). Além disso, a cibersegurança envolve a manutenção da privacidade dos dados pessoais e a garantia de que informações críticas de negócios ou governamentais não sejam comprometidas. Medidas de segurança como firewalls, antivírus, detecção de intrusão, autenticação de dois fatores e criptografia são implementadas para proteger sistemas e redes. Políticas de segurança, como senhas fortes e políticas de compartilhamento seguro de dados, são estabelecidas para orientar o comportamento dos usuários. A conscientização em segurança cibernética é essencial. Funcionários e usuários finais precisam ser educados sobre como identificar ameaças, evitar ações de risco e relatar incidentes de segurança. Testes regulares de segurança, como avaliações de vulnerabilidade e testes de penetração, ajudam a identificar e corrigir possíveis pontos fracos em sistemas e redes. Recuperação de desastres é uma parte crítica da cibersegurança, permitindo que organizações restaurem dados e sistemas rapidamente em caso de violação de segurança ou interrupção dos sistemas. A conformidade com regulamentações de segurança cibernética específicas do setor é crucial para evitar penalidades legais. Gerenciamento de riscos cibernéticos envolve a identificação de ativos críticos, avaliação de ameaças e vulnerabilidades, e a implementação de medidas de mitigação de riscos. A colaboração entre especialistas em segurança, investimento em tecnologias de segurança atualizadas e educação contínua em segurança cibernética são cruciais para manter a integridade e a confidencialidade das informações na era digital de hoje.",
     "referencias": [
-      "ARROIO, A. Is media literacy an urgent issue in education for all? Problems of Education in the 21st Century, Siauliai, v. 75, n. 5, p. 416-418, 2017.",
-      "GENESINI, S. A pós-verdade é uma notícia falsa. Revista USP, São Paulo, n. 116, p. 45-58, 29 maio 2018."
+      "National Institute of Standards and Technology (NIST): Cybersecurity.",
+      "Cybersecurity and Infrastructure Security Agency (CISA): Cybersecurity Best Practices.",
+      "Europol: European Cybercrime Centre."
     ],
     "fontes": [
-      "http://oaji.net/articles/2017/457-1509895265.pdf",
-      "http://www.revistas.usp.br/revusp/article/view/146577"
+      "https://www.nist.gov/cybersecurity",
+      "https://www.cisa.gov/topics/cybersecurity-best-practices",
+      "https://www.europol.europa.eu/activities-services-main/activities/european-cybercrime-centre-ec3"
+    ]
+  },
+  {
+    "id": "copyright",
+    "nome": "Copyright",
+    "imagem": ["copyright.png"],
+    "descricao": "Copyright é uma maneira de proteger materiais autorais, dando direito exclusivo do autor de reproduzir sua obra. Dessa forma, possibilita que os autores usem e distribuam o que criam, da maneira que julgarem melhor. O objetivo principal do copyright é estimular a produção de conteúdo útil, independente do seu formato, mas sem prejudicar a população em geral. Por isso, a lei de direitos autorais protege por 50 a 100 anos após a morte do criador, desde que a autenticidade do conteúdo tenha sido provada. O copyright pode ser usado por criadores de conteúdos artísticos, científicos e intelectuais, em geral. Assim, materiais como músicas, vídeos, áudios, transmissões televisivas, teses cientificas, pinturas, esculturas, desenhos, poemas, livros, fotografias, danças, design gráfico, podem ser protegidos pela lei do copyright.",
+    "referencias": [
+      "SERIQUE, Raissa. Copyright: o que é, como funciona e como proteger o seu conteúdo. Rock Content.",
+      "NATIONAL FILM AND SOUND ARCHIVE OF AUSTRALIA. Collection ownership and copyright. National Film and Sound Archive of Australia",
+      "Editora Omnisscientia: O que é Copyright? Como requerer copyright para obra?"
+    ],
+    "fontes": [
+      "https://rockcontent.com/br/blog/copyright/",
+      "https://www.nfsa.gov.au/collection/using-collection/copyright",
+      "https://editoraomnisscientia.com.br/blog/o-que-e-copyright/"
+    ]
+  },
+  {
+    "id": "criptomoeda",
+    "nome": "Criptomoeda",
+    "imagem": ["criptomoeda.png", "criptomoeda2.png"],
+    "descricao": "A criptomoeda refere-se a qualquer forma de moeda que existe digital ou virtualmente e usa criptografia para garantir a realizações de transações. As criptomoeda não tem uma autoridade central de emissão ou regularização. Em vez disso utilizam um sistema descentralizado para registrar transações e emitir novas unidades. É um sistema de pagamento digital que não depende de bancos para verificar e confirmar transações, permite a pessoa enviar e receber pagamentos de qualquer lugar. Ao transferir fundos de criptomoeda, as transações são registradas em um livro contábil público. A criptomoeda tem esse nome porque usa o recurso de criptografia para verificar as transações. Isso significa que uma codificação avançada está envolvida no armazenamento e na transmissão de dados de criptomoeda entre carteiras e livros contábeis públicos.",
+    "referencias": [
+      "Kaspersky: What is Cryptocurrency?",
+      "ARAÚJO, André. Investir em criptomoedas."
+    ],
+    "fontes": [
+      "https://www.kaspersky.com.br/resource-center/definitions/what-is-cryptocurrency",
+      "https://andrearaujo.com.br/investir-em-criptomoedas/"
+    ]
+  },
+  {
+    "id": "copyleft",
+    "nome": "Copyleft",
+    "imagem": ["Copyleft.png"],
+    "descricao": "Copyleft é um método que serve para tornar um programa (ou obra) e suas modificações e melhorias em algo livre (no sentido de liberdade e não no sentido de ser gratuito). O objetivo é dar a todos os usuários a liberdade de redistribuir e modificar o software, passando e garantindo essa liberdade adiante. Há o incentivo a programadores que frequentemente trabalham para empresas ou universidades que fariam qualquer coisa para ganhar mais dinheiro, para que eles contribuam com o software livre com melhorias para a comunidade mas somente se os termos de distribuição não forem modificados. Desta forma, o código e as liberdades se tornam legalmente inseparáveis.",
+    "referencias": ["GNU Project: “Copyleft”"],
+    "fontes": [
+      "https://www.gnu.org/licenses/copyleft.pt-br.html#:~:text=Copyleft%20%C3%A9%20um%20m%C3%A9todo%20geral,do%20programa%20tamb%C3%A9m%20sejam%20livres"
+    ]
+  },
+  {
+    "id": "liberdade-expressao",
+    "nome": "Liberdade de expressão",
+    "imagem": ["liberdade-expressao.png"],
+    "descricao": "A liberdade de expressão é um princípio fundamental que dá o direito ao cidadão de expressar suas opiniões, ideias, pensamentos e sentimentos livremente, seja por meio da fala, escrita, mídia, arte, protestos pacíficos ou outras formas de comunicação. Esse direito é frequentemente considerado como um dos pilares da democracia e dos direitos humanos. Por séculos esse direito foi um privilégio para poucos, existiam leis que proibiam as pessoas de se expressaram se houvesse desacordo com pessoas de cargos elevados na sociedade, leis estas que se fossem quebradas por um cidadão, o mesmo era preso, chicotado ou até mortos. Sócrates foi um importante filósofo que defendia a liberdade de expressão, pois foi condenado a morte por causa de seu pensamento de que estimulava as pessoas a pensarem criticamente sobre suas crenças e opiniões, ele foi acusado de corromper a juventude por introduzir divindades e desrespeitar as tradições religiosas.",
+    "referencias": [
+      "MAGENTA, Matheus. BBC News Brasil em Londres: O que é liberdade de expressão?"
+    ],
+    "fontes": ["https://www.bbc.com/portuguese/geral-62550835"]
+  },
+  {
+    "id": "propriedade-intelectual",
+    "nome": "Propriedade Intelectual",
+    "imagem": ["propriedade-intelectual.png"],
+    "descricao": "A Propriedade Intelectual é a área do Direito que, por meio de leis, garante a inventores ou responsáveis por qualquer produção do intelecto – seja nos domínios industrial, científico, literário ou artístico – o direito de obter, por um determinado período de tempo, recompensa e proteção legal pela própria criação. A mesma está contida na LEI Nº 13.243, DE 11 DE JANEIRO DE 2016, que é responsável por estimular o desenvolvimento à pesquisa, tecnologia, ao conhecimento científico e à inovação. Segundo a Organização Mundial de Propriedade Intelectual (OMPI), o conceito se divide em duas categorias: Propriedade Industrial, que se refere ao conjunto de direitos que protegem as criações industriais, tais como patentes, marcas, desenhos e indicações geográficas, e Direitos Autorais, que seguram a autoria de obras artísticas, intelectuais e literárias.",
+    "referencias": [
+      "Propriedade Intelectual | Coordenação de Inovação e Empreendedorismo (cefetmg.br)",
+      "O que é propriedade intelectual e quais são as formas de protegê-la? - Critt – Centro Regional de Inovação e Transferência de Tecnologia (ufjf.br)"
+    ],
+    "fontes": [
+      "https://www.cie.cefetmg.br/resumo/#:~:text=A%20Propriedade%20Intelectual%20%C3%A9%20a,prote%C3%A7%C3%A3o%20legal%20pela%20pr%C3%B3pria%20cria%C3%A7%C3%A3o.",
+      "https://www2.ufjf.br/critt/2023/01/30/o-que-e-propriedade-intelectual-e-quais-sao-as-formas-de-protege-la/"
+    ]
+  },
+  {
+    "id": "tecnocracia",
+    "nome": "Tecnocracia",
+    "imagem": ["tecnocracia.png"],
+    "descricao": "O conceito significa “governo dos técnicos”. Isso vem, semanticamente, das palavras gregas tékhnē (arte, técnica) e krátos (poder, domínio, governo). A tecnocracia baseia sua natureza na utilização de um método científico, ao tratar de questões relacionadas à política, à sociedade e à gestão econômica. Nesse sentido, a explicação empírica e demonstrável dos problemas e questões inerentes a essas áreas deve ser baseada em resultados quantificáveis e medições racionais. Tudo isso, em vez de se basear em aspectos subjetivos ou ideológicos , considerando esse espaço central que a técnica passa a ocupar, tanto na sociedade quanto no Estado, é possível identificar movimentos e teorias que defendem um governo exclusivamente racional e alicerçado na técnica, ou seja, uma Tecnocracia. Desta perspectiva, o governante e o corpo político atuariam como técnicos, não como políticos, e suas ações seriam baseadas no conhecimento puramente objetivo com fins cientificamente definido.",
+    "referencias": [
+      "BUZZO, Brenda.  Tecnocracia. InfoEnem.",
+      "Tecnocracia - O que é, definição e conceito - 2021 (economy-pedia.com)"
+    ],
+    "fontes": [
+      "https://infoenem.com.br/tecnocracia/",
+      "https://pt.economy-pedia.com/11037023-technocracy"
+    ]
+  },
+  {
+    "id": "LGPD",
+    "nome": "LGPD",
+    "imagem": ["lgpd.png", "lgpd2.png", "lgpd3.png"],
+    "descricao": "Em 2018, foi sancionada a Lei nº 13.709 (Lei Geral de Proteção de Dados - LGPD), que estabelece um conjunto de regras para coleta, tratamento, armazenamento e compartilhamento de dados pessoais. Inspirada na norma europeia de Proteção de Dados (GDPR – General Data Protection Regulation), a LGPD entrou em vigor em 18.09.2020 e traz inúmeros impactos no processo de manipulação de dados pessoais.<h3>Finalidade</h3>Como já comentamos, a LGPD obriga que as empresas tenham propósitos bem determinados ao tratar dados pessoais. Mas não apenas isto. Elas precisam também deixar claras as suas intenções para o titular dos dados, justificando e apontando o uso dos dados pessoais. Ou seja, ao coletar um endereço de e-mail com a finalidade exclusiva de enviar um boleto bancário ou uma fatura para o cliente, por exemplo, a empresa não pode utilizar o e-mail para enviar ofertas e promoções.Sobre o princípio da finalidade, a LGPD diz: “realização do tratamento para propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior de forma incompatível com essas finalidades”.<h3>Segurança</h3>Como o próprio nome sugere, o princípio da segurança envolve a adoção de procedimentos, tecnologias e soluções que garantam maior proteção dos dados pessoais em casos de acessos não autorizados, como em ataques hackers, e de situações acidentais ou ilícitas de perda e alteração, por exemplo. Sobre o princípio de segurança, diz a LGPD: “utilização de medidas técnicas e administrativas aptas a proteger os dados pessoais de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração, comunicação ou difusão”.<h3>Não discriminação</h3>O tratamento de dados pessoais jamais pode ser realizado com objetivos  geralmente, estamos falando dos dados pessoais sensíveis, como os que tratam sobre origem racial ou étnica, convicção religiosa e opinião política, por exemplo. O princípio da não discriminação, de acordo com a LGPD, refere-se à “impossibilidade de realização do tratamento para fins discriminatórios ilícitos ou abusivos”.",
+    "referencias": [
+      "GET PRIVACY. 10 princípios do tratamento de dados pessoais na LGPD.",
+      "BANCO NACIONAL DE DESENVOLVIMENTO ECONÔMICO E SOCIAL. LGPD: o que é, como funciona e como se adequar."
+    ],
+    "fontes": [
+      "https://getprivacy.com.br/10-principios-tratamento-de-dados-pessoais-lgpd/",
+      "https://www.bndes.gov.br/wps/portal/site/home/transparencia/lgpd#:~:text=O%20que%20%C3%A9%20LGPD%3F,e%20compartilhamento%20de%20dados%20pessoais."
     ]
   }
 ]
