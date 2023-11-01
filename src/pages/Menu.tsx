@@ -1,21 +1,20 @@
-import { BsInstagram, BsGithub } from 'react-icons/bs';
 import Header from '../components/header/Hearder';
 import { useData } from '../DataContext';
 import WordBox from '../components/word-box/WordBox';
 
-export function Word() {
+export function Menu() {
   const data = useData();
 
   return (
     <>
       <Header />
-      <div className="w-full h-full font-merriweather flex justify-between items-start p-10 sm:px-10 !pt-8 overflow-y-auto text-black">
+      <div className="w-full h-full font-nunito flex justify-between items-start p-10 sm:px-10 !pt-8 overflow-y-auto text-black">
         <div className="flex items-center flex-col h-full w-full justify-center">
           <h2 className="text-30">Glossário de Termos</h2>
           <p>Descubra termos utilizados no contexto de direitos digitais</p>
           <input
             type="text"
-            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            className="bg-gray-50 border w-4/5 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#9742FF] focus:border-[#9742FF] block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-[#9742FF] dark:focus:border-[#9742FF]"
             placeholder="Encontre palavras interresantes..."
             required
           />

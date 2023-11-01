@@ -1,3 +1,3 @@
 export { Home } from './Home';
-export { Word } from './Word';
+export { Menu } from './Menu';
 export { Verbete } from './Verbete';

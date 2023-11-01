@@ -2,8 +2,7 @@ import { BsInstagram, BsGithub } from 'react-icons/bs';
 import Header from '../components/header/Hearder';
 
 export function Home() {
-  const instagramURL = 'https://www.instagram.com/anaalice951';
-  const gitHubURL = 'https://github.com/AnaAlice951';
+  const gitHubURL = 'https://github.com/AnaAlice951/glossaryTerms';
   return (
     <>
       <Header />
@@ -18,14 +17,6 @@ export function Home() {
             Aparecida, Pablo Augusto
           </p>
           <div className="flex flex-row lg:gap-20 gap-10 mt-5">
-            <a
-              href={instagramURL}
-              className="h-3 w-9"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BsInstagram className="lg:w-10 lg:h-10 w-7 h-7" />
-            </a>
             <a href={gitHubURL} target="_blank" rel="noopener noreferrer">
               <BsGithub className="lg:w-10 lg:h-10 w-7 h-7" />
             </a>

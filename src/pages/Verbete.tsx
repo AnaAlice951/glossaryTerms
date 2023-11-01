@@ -1,37 +1,54 @@
 import { BsInstagram, BsGithub } from 'react-icons/bs';
 import Header from '../components/header/Hearder';
 import { useData } from '../DataContext';
+import { useParams } from 'react-router-dom';
+import { text } from 'stream/consumers';
 
 export function Verbete() {
   const data = useData();
+  const { id } = useParams();
+  const verbeteData = data.find((item) => item.id === id);
 
+  if (!verbeteData) {
+    return (
+      <div>Não foi possível encontrar o verbete com o ID especificado</div>
+    );
+  }
   return (
     <>
       <Header />
+
       <div className="w-full h-full font-merriweather flex justify-between items-start p-10 sm:px-[20%] !pt-8 overflow-y-auto text-black">
         <div
-          key={data[0].id}
+          key={verbeteData.id}
           className="flex items-center flex-col h-full gap-5 w-full justify-center"
         >
-          <h2 className="sm:text-40 text-30">{data[0].nome}</h2>
+          <h2 className="sm:text-40 text-30">{verbeteData.nome}</h2>
 
-          <p>{data[0].descricao}</p>
-          <img
-            className="w-1/2"
-            src={`../../src/assets/${data[0].imagem}`}
-            alt={data[0].nome}
-          />
+          <p
+            dangerouslySetInnerHTML={{
+              __html: verbeteData.descricao,
+            }}
+          ></p>
+
+          {verbeteData.imagem.map((imagem) => (
+            <img
+              className="w-1/2"
+              src={`../../src/assets/${imagem}`}
+              alt={verbeteData.nome}
+            />
+          ))}
           <h3 className="bg-slate-900 w-4/5 h-1 mt-2" />
           <h3 className="uppercase italic">Referências</h3>
           <ul>
-            {data[0].referencias &&
-              data[0].referencias.map((referencia, index) => (
+            {verbeteData.referencias &&
+              verbeteData.referencias.map((referencia, index) => (
                 <li key={index}>{referencia}</li>
               ))}
           </ul>
           <h3 className="uppercase italic">Fontes</h3>
           <ul>
-            {data[0].fontes.map((fonte, index) => (
+            {verbeteData.fontes.map((fonte, index) => (
               <li key={index}>
                 <a href={fonte} target="_blank" rel="noopener noreferrer">
                   {fonte}
