@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { usePaths } from '../../hooks/usePaths';
-import image from '../../../public/assets/logo_una_roxa.png';
+import image from '../../assets/logo_una_roxa.png';
 
 export function Header() {
   const general = 'text-slate-300';

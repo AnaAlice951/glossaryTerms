@@ -12,6 +12,7 @@ export function Verbete() {
       <div>Não foi possível encontrar o verbete com o ID especificado</div>
     );
   }
+
   return (
     <>
       <Header />
@@ -32,7 +33,7 @@ export function Verbete() {
           {verbeteData.imagem.map((imagem) => (
             <img
               className="w-1/2"
-              src={`/public/assets/${imagem}`}
+              src={new URL(`/src/assets/${imagem}`, import.meta.url).href}
               alt={verbeteData.nome}
             />
           ))}
