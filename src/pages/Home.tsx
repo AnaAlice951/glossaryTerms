@@ -1,4 +1,4 @@
-import { BsInstagram, BsGithub } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 import Header from '../components/header/Hearder';
 
 export function Home() {

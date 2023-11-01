@@ -1,8 +1,6 @@
-import { BsInstagram, BsGithub } from 'react-icons/bs';
 import Header from '../components/header/Hearder';
 import { useData } from '../DataContext';
 import { useParams } from 'react-router-dom';
-import { text } from 'stream/consumers';
 
 export function Verbete() {
   const data = useData();
