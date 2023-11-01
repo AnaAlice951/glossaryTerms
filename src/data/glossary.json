@@ -78,7 +78,7 @@
   {
     "id": "copyleft",
     "nome": "Copyleft",
-    "imagem": ["Copyleft.png"],
+    "imagem": ["copyleft.png"],
     "descricao": "Copyleft é um método que serve para tornar um programa (ou obra) e suas modificações e melhorias em algo livre (no sentido de liberdade e não no sentido de ser gratuito). O objetivo é dar a todos os usuários a liberdade de redistribuir e modificar o software, passando e garantindo essa liberdade adiante. Há o incentivo a programadores que frequentemente trabalham para empresas ou universidades que fariam qualquer coisa para ganhar mais dinheiro, para que eles contribuam com o software livre com melhorias para a comunidade mas somente se os termos de distribuição não forem modificados. Desta forma, o código e as liberdades se tornam legalmente inseparáveis.",
     "referencias": ["GNU Project: “Copyleft”"],
     "fontes": [
