@@ -32,7 +32,7 @@ export function Verbete() {
           {verbeteData.imagem.map((imagem) => (
             <img
               className="w-1/2"
-              src={`./../src/assets/${imagem}`}
+              src={`../../public/assets/${imagem}`}
               alt={verbeteData.nome}
             />
           ))}
