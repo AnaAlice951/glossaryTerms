@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const WordBox = ({ data }: any) => {
   return (
-    <div className="text-[#1f1f1f] sm:p-[5%] sm:pb-[2%] p-8 font-nunito flex flex-col w-full h-60 justify-start items-center rounded-[2.5rem] border border-gray-300 hover:border-[#9742FF] shadow-indigo-500/50 shadow-md">
+    <div className="text-[#1f1f1f] sm:p-[5%] sm:pb-[2%] px-8 py-4 font-nunito flex flex-col w-full h-60 justify-start items-center rounded-[2.5rem] border border-gray-300 hover:border-[#9742FF] shadow-indigo-500/50 shadow-md">
       <h2 className="flex self-start font-semibold text-22 mb-2 line-clamp-2 sm:line-clamp-3">
         {data.nome}
       </h2>
