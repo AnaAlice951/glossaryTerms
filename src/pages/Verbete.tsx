@@ -1,17 +1,23 @@
+import { v4 as uuid } from 'uuid';
+
 import Header from '../components/header/Hearder';
 import { useData } from '../DataContext';
 import { useParams } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export function Verbete() {
   const data = useData();
   const { id } = useParams();
   const verbeteData = data.find((item) => item.id === id);
-
   if (!verbeteData) {
     return (
       <div>Não foi possível encontrar o verbete com o ID especificado</div>
     );
   }
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -23,15 +29,14 @@ export function Verbete() {
           className="flex items-center flex-col h-full gap-5 w-full justify-center"
         >
           <h2 className="sm:text-40 text-30">{verbeteData.nome}</h2>
-
           <p
             dangerouslySetInnerHTML={{
               __html: verbeteData.descricao,
             }}
           ></p>
-
           {verbeteData.imagem.map((imagem) => (
             <img
+              key={uuid()}
               className="w-1/2"
               src={new URL(`/src/assets/${imagem}`, import.meta.url).href}
               alt={verbeteData.nome}
