@@ -7,7 +7,7 @@ export function Home() {
     <>
       <Header />
       <div className="w-full h-full font-merriweather flex justify-between items-start p-10 lg:p-20 overflow-y-auto">
-        <div className="flex flex-col h-full gap-5 lg:gap-20 w-full justify-center">
+        <div className="flex flex-col h-full gap-5 lg:gap-20 w-full justify-center items-center">
           <p className="font-bold text-[50px] lg:text-[80px] text-black_75">
             Verbetes - Direito Digital
           </p>

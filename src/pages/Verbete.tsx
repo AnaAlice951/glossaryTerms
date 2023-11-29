@@ -1,8 +1,8 @@
 import { v4 as uuid } from 'uuid';
-
+import { IoMdArrowRoundBack } from "react-icons/io";
 import Header from '../components/header/Hearder';
 import { useData } from '../DataContext';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useEffect } from 'react';
 
 export function Verbete() {
@@ -22,8 +22,14 @@ export function Verbete() {
   return (
     <>
       <Header />
-
-      <div className="w-full h-full font-merriweather flex justify-between items-start p-10 sm:px-[20%] !pt-8 overflow-y-auto text-black">
+      <Link
+        className="flex self-start flex-col"
+        to={`/menu`}
+      >
+        <div className='flex justify-center items-center w-full h-8 bg-[#9742FF] m-6 text-white gap-3 rounded-md sm:text-16 text-14'><IoMdArrowRoundBack/> Voltar</div>
+      </Link>
+      <div className="w-full h-full font-merriweather flex justify-between items-start p-10 sm:px-[20%] !pt-4 overflow-y-auto text-black">
+        
         <div
           key={verbeteData.id}
           className="flex items-center flex-col h-full gap-5 w-full justify-center"
@@ -53,9 +59,9 @@ export function Verbete() {
           <h3 className="uppercase italic">Fontes</h3>
           <ul>
             {verbeteData.fontes.map((fonte, index) => (
-              <li key={index}>
+              <li key={index} className='mb-2 underline'>
                 <a href={fonte} target="_blank" rel="noopener noreferrer">
-                  {fonte}
+                 Fonte {index + 1}
                 </a>
               </li>
             ))}

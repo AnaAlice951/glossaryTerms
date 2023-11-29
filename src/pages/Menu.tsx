@@ -24,7 +24,7 @@ export function Menu() {
           <input
             type="text"
             className="bg-gray-50 border w-4/5 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#9742FF] focus:border-[#9742FF] block p-2.5 dark:focus:ring-[#9742FF] dark:focus:border-[#9742FF]"
-            placeholder="Encontre palavras interresantes..."
+            placeholder="Digite o nome do verbete..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
