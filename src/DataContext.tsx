@@ -6,13 +6,6 @@ export function useData() {
 }
 const DataContext = createContext(data);
 
-// interface Item {
-//   nome: string;
-//   imagem: string[];
-//   descricao: string;
-//   referencias: string[];
-//   fontes: string[];
-// }
 
 export function DataProvider({ children }: any) {
   return <DataContext.Provider value={data}>{children}</DataContext.Provider>;
